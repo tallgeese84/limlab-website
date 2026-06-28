@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#15b7c6"/><stop offset="1" stop-color="#e11d74"/></linearGradient></defs>
+<rect width="320" height="220" rx="24" fill="#0e152b"/>
+<circle cx="92" cy="100" r="58" fill="none" stroke="url(#g)" stroke-width="8"/>
+<path d="M92 52l13 33 35 3-27 23 8 35-29-19-29 19 8-35-27-23 35-3z" fill="url(#g)"/>
+<text x="174" y="76" font-family="Inter,Arial" font-size="14" fill="#aeb5c5" letter-spacing="1.4">NIH DIRECTOR'S</text>
+<text x="174" y="108" font-family="Inter,Arial" font-size="25" font-weight="700" fill="#fff">New Innovator</text>
+<text x="174" y="137" font-family="Inter,Arial" font-size="25" font-weight="700" fill="#fff">Award</text>
+<text x="174" y="170" font-family="IBM Plex Mono,monospace" font-size="13" fill="#15b7c6">TELOMERE CHROMATIN</text>
+</svg>

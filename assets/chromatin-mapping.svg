@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+<title id="t">Telomere chromatin mapping schematic</title>
+<desc id="d">A long telomeric DNA molecule with shelterin-linked methylases depositing methylation marks for long-read chromatin mapping.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#fff7fb"/></linearGradient>
+  <linearGradient id="dna" x1="0" x2="1"><stop stop-color="#15b7c6"/><stop offset="1" stop-color="#e11d74"/></linearGradient>
+</defs>
+<rect width="1200" height="560" rx="28" fill="url(#bg)"/>
+<g opacity=".55" stroke="#d9deea" stroke-width="1"><path d="M80 110H1120M80 450H1120"/><path d="M180 70V490M1020 70V490"/></g>
+<text x="80" y="86" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#0a0f1e">Protein-guided m6A footprinting across a single telomere</text>
+<text x="80" y="118" font-family="Inter,Arial,sans-serif" font-size="15" fill="#535b6b">Methylase-tagged shelterin proteins mark accessible adenines for long-read mapping</text>
+
+<!-- DNA track -->
+<path d="M84 350 C155 326 205 374 274 350 S395 326 464 350 S585 374 654 350 S775 326 844 350 S965 374 1116 350" fill="none" stroke="url(#dna)" stroke-width="15" stroke-linecap="round"/>
+<path d="M84 375 C155 351 205 399 274 375 S395 351 464 375 S585 399 654 375 S775 351 844 375 S965 399 1116 375" fill="none" stroke="#394260" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+
+<!-- subtelomere blocks -->
+<g transform="translate(86 319)"><rect width="160" height="66" rx="20" fill="#0e152b"/><g fill="#15b7c6"><rect x="14" y="15" width="28" height="36" rx="9"/><rect x="47" y="15" width="28" height="36" rx="9"/><rect x="80" y="15" width="28" height="36" rx="9"/></g><g fill="#ff8a5b"><rect x="113" y="15" width="16" height="36" rx="8"/><rect x="134" y="15" width="16" height="36" rx="8"/></g></g>
+<text x="98" y="425" font-family="IBM Plex Mono,monospace" font-size="14" fill="#535b6b">SUBTELOMERE</text>
+<text x="943" y="425" font-family="IBM Plex Mono,monospace" font-size="14" fill="#535b6b">TELOMERE REPEATS</text>
+
+<!-- protein complexes -->
+<g>
+  <g transform="translate(300 215)">
+    <ellipse cx="0" cy="86" rx="60" ry="38" fill="#fff" stroke="#c8cfdb" stroke-width="3"/>
+    <circle cx="-23" cy="82" r="25" fill="#f1c7df"/><circle cx="15" cy="77" r="29" fill="#b7e8ee"/><circle cx="27" cy="102" r="19" fill="#d8c8f0"/>
+    <path d="M0 54V10" stroke="#555f75" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 8 C8 -18 23 -22 37 -12 C51 -2 51 17 36 26 C20 35 5 27 0 8Z" fill="#62d7df" stroke="#0e8791" stroke-width="3"/>
+    <circle cx="-61" cy="31" r="25" fill="#22c997"/><text x="-61" y="38" text-anchor="middle" font-family="Inter,Arial" font-size="17" font-weight="700" fill="white">Me</text>
+    <path d="M-42 44L-13 66" stroke="#22c997" stroke-width="4"/>
+  </g>
+  <g transform="translate(535 197)">
+    <ellipse cx="0" cy="104" rx="62" ry="39" fill="#fff" stroke="#c8cfdb" stroke-width="3"/>
+    <circle cx="-22" cy="100" r="27" fill="#f1c7df"/><circle cx="16" cy="94" r="30" fill="#b7e8ee"/><circle cx="29" cy="119" r="19" fill="#d8c8f0"/>
+    <path d="M0 71V27" stroke="#555f75" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 25 C8 -1 23 -5 37 5 C51 15 51 34 36 43 C20 52 5 44 0 25Z" fill="#62d7df" stroke="#0e8791" stroke-width="3"/>
+    <circle cx="-65" cy="50" r="25" fill="#22c997"/><text x="-65" y="57" text-anchor="middle" font-family="Inter,Arial" font-size="17" font-weight="700" fill="white">Me</text>
+    <path d="M-46 63L-14 84" stroke="#22c997" stroke-width="4"/>
+  </g>
+  <g transform="translate(780 215)">
+    <ellipse cx="0" cy="86" rx="60" ry="38" fill="#fff" stroke="#c8cfdb" stroke-width="3"/>
+    <circle cx="-23" cy="82" r="25" fill="#f1c7df"/><circle cx="15" cy="77" r="29" fill="#b7e8ee"/><circle cx="27" cy="102" r="19" fill="#d8c8f0"/>
+    <path d="M0 54V10" stroke="#555f75" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 8 C8 -18 23 -22 37 -12 C51 -2 51 17 36 26 C20 35 5 27 0 8Z" fill="#62d7df" stroke="#0e8791" stroke-width="3"/>
+    <circle cx="-61" cy="31" r="25" fill="#22c997"/><text x="-61" y="38" text-anchor="middle" font-family="Inter,Arial" font-size="17" font-weight="700" fill="white">Me</text>
+    <path d="M-42 44L-13 66" stroke="#22c997" stroke-width="4"/>
+  </g>
+  <g transform="translate(1005 204)">
+    <ellipse cx="0" cy="97" rx="59" ry="38" fill="#fff" stroke="#c8cfdb" stroke-width="3"/>
+    <circle cx="-23" cy="93" r="25" fill="#f1c7df"/><circle cx="15" cy="88" r="29" fill="#b7e8ee"/><circle cx="27" cy="113" r="19" fill="#d8c8f0"/>
+    <path d="M0 65V21" stroke="#555f75" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0 19 C8 -7 23 -11 37 -1 C51 9 51 28 36 37 C20 46 5 38 0 19Z" fill="#62d7df" stroke="#0e8791" stroke-width="3"/>
+    <circle cx="-61" cy="42" r="25" fill="#22c997"/><text x="-61" y="49" text-anchor="middle" font-family="Inter,Arial" font-size="17" font-weight="700" fill="white">Me</text>
+    <path d="M-42 55L-13 77" stroke="#22c997" stroke-width="4"/>
+  </g>
+</g>
+
+<!-- methylation marks -->
+<g fill="#e11d74" stroke="white" stroke-width="3">
+<circle cx="382" cy="353" r="10"/><circle cx="470" cy="366" r="10"/><circle cx="625" cy="351" r="10"/><circle cx="703" cy="370" r="10"/><circle cx="879" cy="353" r="10"/><circle cx="1050" cy="367" r="10"/>
+</g>
+<g font-family="Inter,Arial" font-size="13" fill="#0a0f1e"><text x="350" y="470">protein occupancy</text><text x="837" y="470">m6A accessibility marks</text></g>
+<path d="M392 443L421 383" stroke="#8d95a7" stroke-width="2"/><path d="M905 442L879 368" stroke="#8d95a7" stroke-width="2"/>
+</svg>
