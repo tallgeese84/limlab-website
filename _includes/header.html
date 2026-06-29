@@ -1,0 +1,20 @@
+<header class="nav" id="nav">
+<div class="nav-in">
+<a aria-label="Lim Lab home" class="brand" href="{{ '/' | relative_url }}">
+<span class="brand-wordmark"><b>LIM</b><span>LAB</span></span>
+</a>
+<button aria-expanded="false" aria-label="Toggle menu" class="menubtn" id="menubtn">
+<svg fill="none" height="24" viewBox="0 0 24 24" width="24"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-linecap="round" stroke-width="1.7"></path></svg>
+</button>
+<nav class="navlinks" id="navlinks">
+<a {% if page.nav == 'research' %}class="active" aria-current="page"{% endif %} href="{{ '/research/' | relative_url }}">Research</a>
+<a {% if page.nav == 'news' %}class="active" aria-current="page"{% endif %} href="{{ '/news/' | relative_url }}">News</a>
+<a {% if page.nav == 'publications' %}class="active" aria-current="page"{% endif %} href="{{ '/publications/' | relative_url }}">Publications</a>
+<a {% if page.nav == 'people' %}class="active" aria-current="page"{% endif %} href="{{ '/people/' | relative_url }}">People</a>
+<a {% if page.nav == 'outings' %}class="active" aria-current="page"{% endif %} href="{{ '/outings/' | relative_url }}">Outings</a>
+<a {% if page.nav == 'contact' %}class="active" aria-current="page"{% endif %} href="{{ '/contact/' | relative_url }}">Contact</a>
+<a class="joinpill{% if page.nav == 'contact' %} active{% endif %}" href="{{ '/contact/' | relative_url }}">Join the lab</a>
+</nav>
+</div>
+</header>
+<span id="top"></span>
