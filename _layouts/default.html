@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+<meta content="{{ page.description | default: site.description }}" name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet"/>
+</head>
+<body>
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+<script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+{% if page.outings_gallery %}<script src="{{ '/outings-data.js' | relative_url }}"></script><script src="{{ '/assets/js/outings.js' | relative_url }}"></script>{% endif %}
+</body>
+</html>
