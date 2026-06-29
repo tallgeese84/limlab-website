@@ -1,8 +1,3 @@
-// sticky nav state
-  const nav=document.getElementById('nav');
-  const onScroll=()=>nav.classList.toggle('scrolled',window.scrollY>40);
-  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
-
   // mobile menu
   const btn=document.getElementById('menubtn'),links=document.getElementById('navlinks');
   btn.addEventListener('click',()=>{const o=links.classList.toggle('open');btn.setAttribute('aria-expanded',o)});
